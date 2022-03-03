@@ -1,0 +1,11 @@
+C:\Users\kindr\source\repos\Zadanie2\Zadanie2\bin\Debug\Zadanie2.exe.config
+C:\Users\kindr\source\repos\Zadanie2\Zadanie2\bin\Debug\Zadanie2.exe
+C:\Users\kindr\source\repos\Zadanie2\Zadanie2\bin\Debug\Zadanie2.pdb
+C:\Users\kindr\source\repos\Zadanie2\Zadanie2\obj\Debug\Zadanie2.csproj.AssemblyReference.cache
+C:\Users\kindr\source\repos\Zadanie2\Zadanie2\obj\Debug\Zadanie2.csproj.SuggestedBindingRedirects.cache
+C:\Users\kindr\source\repos\Zadanie2\Zadanie2\obj\Debug\Zadanie2.Form1.resources
+C:\Users\kindr\source\repos\Zadanie2\Zadanie2\obj\Debug\Zadanie2.Properties.Resources.resources
+C:\Users\kindr\source\repos\Zadanie2\Zadanie2\obj\Debug\Zadanie2.csproj.GenerateResource.cache
+C:\Users\kindr\source\repos\Zadanie2\Zadanie2\obj\Debug\Zadanie2.csproj.CoreCompileInputs.cache
+C:\Users\kindr\source\repos\Zadanie2\Zadanie2\obj\Debug\Zadanie2.exe
+C:\Users\kindr\source\repos\Zadanie2\Zadanie2\obj\Debug\Zadanie2.pdb
