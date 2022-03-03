@@ -20,7 +20,7 @@ namespace Zadanie2
             game = new Game(4);
         }
 
-        private void button15_Click(object sender, EventArgs e)
+        private void button15_Click(object sender, EventArgs e) //Событие, происходящее во время нажатия кнопки
         {
             int position = Convert.ToInt16(((Button)sender).Tag);
             game.Shift(position);
@@ -32,7 +32,7 @@ namespace Zadanie2
             } 
         }
 
-        private Button button (int position)
+        private Button button (int position) //Присваиваем значения кнопкам
         {
             switch(position)
             {
@@ -56,7 +56,7 @@ namespace Zadanie2
             }
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e) //Событие при запуске
         {
             start_game();
         }
@@ -65,7 +65,7 @@ namespace Zadanie2
             start_game();
         }
 
-        private void start_game ()
+        private void start_game () //Параметры для функции Shift_Random
         { 
             game.Start();
             for (int i = 0; i < 100; i++)
@@ -73,7 +73,7 @@ namespace Zadanie2
             refresh();
         }
 
-        private void refresh ()
+        private void refresh () //Настроили невидимую кнопку
         {
             for (int position = 0; position < 16; position++)
             {

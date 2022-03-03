@@ -4,15 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Реалицация игровой логики
+
 namespace Zadanie2
 {
     internal class Game
     {
+        //Создаём переменные, инициализируем массив и рандом
         int size;
         int[,] map;
         int space_x, space_y;
         static Random rand = new Random();
-        public Game (int size)
+        public Game (int size) //Задайм размер игрового поля
         {
             if (size < 2) size = 2;
             if (size > 5) size = 5; 
@@ -30,7 +33,7 @@ namespace Zadanie2
             map[space_x, space_y] = 0;
         }
 
-        public void Shift (int position)
+        public void Shift (int position) //Реализация перемещения кнопок
         {
             int x, y;
             Position_To_Coords (position, out x, out y);
@@ -42,7 +45,7 @@ namespace Zadanie2
             space_y = y;
         }
 
-        public void Shift_Random ()
+        public void Shift_Random () //Перемешивание кнопок
         {
             int a = rand.Next(0, 4);
             int x = space_x;
@@ -57,7 +60,7 @@ namespace Zadanie2
             Shift(Coords_To_Position(x, y));
         }
 
-        public bool Check_Numbers ()
+        public bool Check_Numbers () //Проверка 
         {
             if (!(space_x == size -1 && space_y == size -1)) 
                 return false;
@@ -78,7 +81,7 @@ namespace Zadanie2
             return map[x, y];
         }
 
-        private int Coords_To_Position (int x, int y)
+        private int Coords_To_Position (int x, int y) //Конвертируем координаты в позицию
         {
             if (x < 0) x = 0;
             if (x > size - 1) x = size - 1;
@@ -87,7 +90,7 @@ namespace Zadanie2
             return y * size + x;
         }
 
-        private void Position_To_Coords (int position, out int x, out int y)
+        private void Position_To_Coords (int position, out int x, out int y) //Конвертируем позицию в координаты
         {
             if(position < 0) position = 0;
             if(position > size * size - 1) position = size * size - 1;

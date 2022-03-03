@@ -9,3 +9,7 @@ C:\Users\kindr\source\repos\Zadanie2\Zadanie2\obj\Debug\Zadanie2.csproj.Generate
 C:\Users\kindr\source\repos\Zadanie2\Zadanie2\obj\Debug\Zadanie2.csproj.CoreCompileInputs.cache
 C:\Users\kindr\source\repos\Zadanie2\Zadanie2\obj\Debug\Zadanie2.exe
 C:\Users\kindr\source\repos\Zadanie2\Zadanie2\obj\Debug\Zadanie2.pdb
+C:\Users\kindr\Desktop\TSoft\C# Project\C-Shark\Practika\Zadanie2\Zadanie2\obj\Debug\Zadanie2.csproj.AssemblyReference.cache
+C:\Users\kindr\Desktop\TSoft\C# Project\C-Shark\Practika\Zadanie2\Zadanie2\obj\Debug\Zadanie2.csproj.SuggestedBindingRedirects.cache
+C:\Users\kindr\Desktop\TSoft\C# Project\C-Shark\Practika\Zadanie2\Zadanie2\obj\Debug\Zadanie2.exe
+C:\Users\kindr\Desktop\TSoft\C# Project\C-Shark\Practika\Zadanie2\Zadanie2\obj\Debug\Zadanie2.pdb
